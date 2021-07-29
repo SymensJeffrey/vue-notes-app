@@ -1,14 +1,14 @@
 <template>
- <NoteSelector/>
+  <div class="note-selectors">
+    <NoteSelector/>
+  </div>
 </template>
 
 <script>
 import NoteSelector from './NoteSelector.vue'
 export default {
-  name: 'app',
   components: {
     NoteSelector,
-
   }
 };
 </script>
